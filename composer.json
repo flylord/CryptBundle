@@ -2,7 +2,7 @@
     "name": "simplicity-projects/crypt-bundle",
     "type": "symfony-bundle",
     "description": "A symphony bundle for crypt/decrypt strings",
-    "keywords": [ ],
+    "keywords": [],
     "homepage": "http://www.simplicity.rs",
     "license": "MIT",
     "authors": [
