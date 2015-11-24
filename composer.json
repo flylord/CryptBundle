@@ -1,0 +1,22 @@
+{
+    "name": "simplicity-projects/crypt-bundle",
+    "type": "symfony-bundle",
+    "description": "A symphony bundle for crypt/decrypt strings",
+    "keywords": ["Simplicity"],
+    "homepage": "http://www.simplicity.rs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandar Ilic",
+            "email": "aleksandar.ilic@simplicity.rs"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": ">=2.6"
+    },
+    "autoload": {
+        "psr-0": { "Simplicity\\CryptBundle": "" }
+    },
+    "target-dir": "Simplicity/CryptBundle"
+}

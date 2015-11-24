@@ -1,0 +1,7 @@
+services:
+    simplicity_crypt.service.cryptor:
+        class: Simplicity\CryptBundle\Service\CryptorService
+        arguments:
+            - %simplicity_crypt.secret%
+            - %simplicity_crypt.algorithm%
+            - %simplicity_crypt.mode%
