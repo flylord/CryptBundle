@@ -2,7 +2,7 @@
     "name": "simplicity-projects/crypt-bundle",
     "type": "symfony-bundle",
     "description": "A symphony bundle for crypt/decrypt strings",
-    "keywords": ["Simplicity"],
+    "keywords": [ ],
     "homepage": "http://www.simplicity.rs",
     "license": "MIT",
     "authors": [
@@ -17,6 +17,11 @@
     },
     "autoload": {
         "psr-0": { "Simplicity\\CryptBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "stable": "1.0"
+        }
     },
     "target-dir": "Simplicity/CryptBundle"
 }
