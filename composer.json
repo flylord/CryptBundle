@@ -20,7 +20,6 @@
     },
     "extra": {
         "branch-alias": {
-            "stable": "1.0"
         }
     },
     "target-dir": "Simplicity/CryptBundle"
